@@ -2,7 +2,8 @@ let head;
 let bowl;
 let shake;
 function setup() {
-  createCanvas(550,550);
+  let canvas = createCanvas(550, 550);
+  canvas.parent("sketchcontainer");
   head = new Pighead(width / 2, height / 2);
   bowl = new Bowl(1.6*width / 4, (2.4 * height) / 4,1.6*width / 4, 1.03*height/2);
   head1 = new Pighead1(1.525*width, 2.58*height );

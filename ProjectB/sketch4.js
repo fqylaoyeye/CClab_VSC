@@ -3,7 +3,8 @@ let dancer;
 
 function setup() {
 
-  createCanvas(550,550);
+  let canvas = createCanvas(550, 550);
+  canvas.parent("sketchcontainer");
  
   dancer = new SylviaDancer(width / 2, height / 2);
 }

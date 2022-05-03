@@ -12,7 +12,8 @@ let pigx;
 let pigy;
 let jump;
 function setup() {
-  createCanvas(550, 550);
+  let canvas = createCanvas(550, 550);
+  canvas.parent("sketchcontainer");
   pigx = width / 2;
   pigy = height / 2;
   for (let i = 0; i < n; i++) {

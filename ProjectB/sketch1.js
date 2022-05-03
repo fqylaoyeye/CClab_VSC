@@ -1,7 +1,8 @@
 let head;
 
 function setup() {
-  createCanvas(550,550);
+  let canvas = createCanvas(550, 550);
+  canvas.parent("sketchcontainer");
   head = new Pighead(width / 2, height / 2);
   head1 = new Pighead(2.006 * width, 2.15 * height);
 }

@@ -76,6 +76,17 @@ html {
     -webkit-box-shadow: 5px 5px 3px -2px #000000;
     box-shadow: 5px 5px 3px -2px #000000;
   }
+  #sketchcontainer{
+    display: block;
+      margin: 30px auto;
+      position: relative;
+      width: 820px;
+      height: 550px;
+      padding: 25px;
+      border: 1.5px dotted #065f83;
+      background-color: #44bdf6;
+      border-radius: 6px;
+  }
   .button{
       display:flex;
       justify-content:center;
