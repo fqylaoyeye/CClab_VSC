@@ -33,7 +33,7 @@ html {
   }
   h4{
     font-family: 'Dancing Script', cursive;
-    font-size: 28px;
+    font-size: 35px;
     
     color: rgb(240, 240, 245);
     font-stretch: semi-expanded;
@@ -41,7 +41,7 @@ html {
 
   p{
     font-family: 'Dancing Script', cursive;
-    font-size:25px;
+    font-size:28px;
     color:rgb(22, 26, 93);
   }
 
@@ -102,13 +102,14 @@ html {
       border-radius: 6px;
   }
   .column{
+    width:40%;
     float:right;
   }
   .button{
       display:flex;
       justify-content:center;
       align-items:center;
-      width: 100vw;
+      width: 80vw;
       height:20vh;
       padding: 5px;
       margin: 20px auto;
@@ -124,12 +125,12 @@ html {
       width:200px;
       height:60px;
       text-align:center;
-      margin:40px auto;
+      margin:20px auto;
       color:rgb(159, 88, 217);
       text-decoration:none;
       font-size:22px;
       font-family: 'Dancing Script', cursive;
-
+      filter: hue-rotate(calc(var(--i)*25deg));
 
   }
   .button a::before,
@@ -168,3 +169,4 @@ html {
      height:58px;
      transition-delay:0;
  }
+ 
