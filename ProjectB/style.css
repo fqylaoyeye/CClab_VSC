@@ -18,9 +18,10 @@ html {
   }
   h2 {
     font-family: 'Dancing Script', cursive;
-    font-size: 28px;
+    font-size: 26px;
     text-align: center;
-    padding:10px;
+    margin:0px auto;
+    padding:0px;
     color: rgb(248, 250, 251);
   }
 
@@ -38,6 +39,18 @@ html {
     color: rgb(240, 240, 245);
     font-stretch: semi-expanded;
   }
+  h5{
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+    color:rgb(22, 26, 93);
+  }
+  h6{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+    color:rgb(22, 26, 93);
+  }
+
 
   p{
     font-family: 'Dancing Script', cursive;
@@ -70,10 +83,11 @@ html {
       overflow: hidden;
       border: 1.5px dotted #065f83;
       border-radius: 6px;
-      height:300px;
+      height:350px;
       background: radial-gradient(circle at center,rgb(162, 205, 232),rgb(99, 141, 239));
 
   }
+
 
 
   #nav {
@@ -123,11 +137,11 @@ html {
       height:60px;
       text-align:center;
       margin:20px auto;
-      color:rgb(159, 88, 217);
+      color:rgb(99, 141, 239);
       text-decoration:none;
       font-size:22px;
       font-family: 'Dancing Script', cursive;
-      filter: hue-rotate(calc(var(--i)*10deg));
+      filter: hue-rotate(calc(var(--i)*25deg));
 
   }
   .button a::before,
