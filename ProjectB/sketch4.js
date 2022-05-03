@@ -3,7 +3,7 @@ let dancer;
 
 function setup() {
 
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(550,550);
  
   dancer = new SylviaDancer(width / 2, height / 2);
 }
