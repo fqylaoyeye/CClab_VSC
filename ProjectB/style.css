@@ -83,7 +83,7 @@ html {
       overflow: hidden;
       border: 1.5px dotted #065f83;
       border-radius: 6px;
-      height:350px;
+      
       background: radial-gradient(circle at center,rgb(162, 205, 232),rgb(99, 141, 239));
 
   }
