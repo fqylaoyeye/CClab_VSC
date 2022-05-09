@@ -87,7 +87,7 @@ class Bowl {
     if (mouseIsPressed){
       shake=random(-0.2,0.2);
       
-      textFont("Dancing Script");
+      textFont("Handlee");
        fill(255);
       textSize(45);
       text("Gobble!",width/1.7,height/3);

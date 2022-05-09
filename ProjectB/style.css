@@ -17,7 +17,7 @@ html {
 
   }
   h2 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 26px;
     text-align: center;
     margin:0px auto;
@@ -26,34 +26,34 @@ html {
   }
 
   h3 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 20px;
     text-align: center;
     padding-bottom: 50px;
     color: rgb(40, 46, 162);
   }
   h4{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 35px;
     
     color: rgb(240, 240, 245);
     font-stretch: semi-expanded;
   }
   h5{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Handlee', cursive;
     font-size:20px;
     color:rgb(22, 26, 93);
   }
   h6{
     text-align: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Handlee', cursive;
     font-size:20px;
     color:rgb(22, 26, 93);
   }
 
 
   p{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Handlee', cursive;
     font-size:25px;
     color:rgb(22, 26, 93);
   }
@@ -140,7 +140,7 @@ html {
       color:rgb(99, 141, 239);
       text-decoration:none;
       font-size:22px;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Handlee', cursive;
       filter: hue-rotate(calc(var(--i)*25deg));
 
   }

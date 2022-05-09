@@ -40,7 +40,7 @@ function draw() {
   }
 
   if (pigy < 40) {
-    textFont("Dancing Script");
+    textFont("Handlee");
     textSize(48);
     text("The End ~", 100, 150);
     textSize(36);
